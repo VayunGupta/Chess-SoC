@@ -12,6 +12,22 @@ This project implements a hardware-accelerated chess interface on a custom Syste
 - Built and deployed using Xilinx Vivado and Vitis
 - Targeted for the RealDigital Urbana Board
 
+## Design Statistics
+
+The final FPGA implementation produced the following resource usage, timing, and power results:
+
+```text
+LUT Usage:       908
+DSP Usage:       8
+Memory (BRAM):   39
+Flip-Flop Usage: 537
+Latches:         0
+Frequency:       118.50 MHz
+Static Power:    0.075 W
+Dynamic Power:   0.398 W
+Total Power:     0.473 W
+```
+
 ## Getting Started
 
 ### Prerequisites
