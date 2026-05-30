@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a hardware-accelerated chess interface on a custom System-on-Chip (SoC) platform. It utilizes mouse input for interaction and renders the chessboard display through HDMI. The design is built and deployed using Xilinx Vitis and is compatible with the Xilinx Spartan-7 xc7s50csga324-1 FPGA (found on the RealDigital Urbana Board).
+This project was developed by Russel De Leon and Vayun Gupta for the final project of ECE 385: Digital Systems Laboratory at the University of Illinois Urbana-Champaign. It implements a hardware-accelerated chess interface on a custom System-on-Chip (SoC) platform. It utilizes mouse input for interaction and renders the chessboard display through HDMI. The design is built and deployed using Xilinx Vitis and is compatible with the Xilinx Spartan-7 xc7s50csga324-1 FPGA (found on the RealDigital Urbana Board).
 
 ## Features
 
@@ -11,6 +11,12 @@ This project implements a hardware-accelerated chess interface on a custom Syste
 - Custom SoC implementation
 - Built and deployed using Xilinx Vivado and Vitis
 - Targeted for the RealDigital Urbana Board
+
+## Project Demo
+
+The chessboard interface is rendered through HDMI and controlled using mouse input on the FPGA board.
+
+![FPGA Chess Interface](img/ChessProject.jpeg)
 
 ## Design Statistics
 
