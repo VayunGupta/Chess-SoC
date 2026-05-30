@@ -74,6 +74,12 @@ A more detailed explanation of the design, implementation, testing, and results 
 
 [View Final Project Report](ChessFinalProjectReport.pdf)
 
+## Acknowledgements
+
+Special thanks to Rishi Thakkar for creating tools that helped support a palette-based approach to sprite generation.
+
+[Related Repository](https://github.com/ministrike3/ECE-385-Final-Project)
+
 ## Project Context
 
 This project was developed by Russel De Leon and Vayun Gupta as a self-selected final project of ECE 385: Digital Systems Laboratory at the University of Illinois Urbana-Champaign.
