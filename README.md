@@ -1,8 +1,11 @@
 # FPGA Chess Interface
 
+## Project Context
+This project was developed by Russel De Leon and Vayun Gupta for the final project of ECE 385: Digital Systems Laboratory at the University of Illinois Urbana-Champaign.
+
 ## Overview
 
-This project was developed by Russel De Leon and Vayun Gupta for the final project of ECE 385: Digital Systems Laboratory at the University of Illinois Urbana-Champaign. It implements a hardware-accelerated chess interface on a custom System-on-Chip (SoC) platform. It utilizes mouse input for interaction and renders the chessboard display through HDMI. The design is built and deployed using Xilinx Vitis and is compatible with the Xilinx Spartan-7 xc7s50csga324-1 FPGA (found on the RealDigital Urbana Board).
+This Project implements a hardware-accelerated chess interface on a custom System-on-Chip (SoC) platform. It utilizes mouse input for interaction and renders the chessboard display through HDMI. The design is built and deployed using Xilinx Vitis and is compatible with the Xilinx Spartan-7 xc7s50csga324-1 FPGA (found on the RealDigital Urbana Board).
 
 ## Features
 
