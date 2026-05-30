@@ -1,8 +1,5 @@
 # FPGA Chess Interface
 
-## Project Context
-This project was developed by Russel De Leon and Vayun Gupta for the final project of ECE 385: Digital Systems Laboratory at the University of Illinois Urbana-Champaign.
-
 ## Overview
 
 This Project implements a hardware-accelerated chess interface on a custom System-on-Chip (SoC) platform. It utilizes mouse input for interaction and renders the chessboard display through HDMI. The design is built and deployed using Xilinx Vitis and is compatible with the Xilinx Spartan-7 xc7s50csga324-1 FPGA (found on the RealDigital Urbana Board).
@@ -36,6 +33,13 @@ Static Power:    0.075 W
 Dynamic Power:   0.398 W
 Total Power:     0.473 W
 ```
+## Tools and Technologies
+
+- **Hardware Description Language:** SystemVerilog
+- **Software:** C
+- **FPGA Tools:** Xilinx Vivado, Xilinx Vitis
+- **Hardware:** RealDigital Urbana Board, Xilinx Spartan-7 FPGA
+- **Interfaces:** HDMI display, USB mouse input
 
 ## Getting Started
 
@@ -63,3 +67,7 @@ Before running the project, make sure you have:
 
 - Ensure the mouse is connected before starting the application.
 - The project currently supports basic cursor interaction and board navigation.
+
+## Project Context
+
+This project was developed by Russel De Leon and Vayun Gupta as a self-selected final project of ECE 385: Digital Systems Laboratory at the University of Illinois Urbana-Champaign.
