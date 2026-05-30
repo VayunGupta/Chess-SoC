@@ -68,6 +68,12 @@ Before running the project, make sure you have:
 - Ensure the mouse is connected before starting the application.
 - The project currently supports basic cursor interaction and board navigation.
 
+## Final Report
+
+A more detailed explanation of the design, implementation, testing, and results can be found in the final project report:
+
+[View Final Project Report](ChessFinalProjectReport.pdf)
+
 ## Project Context
 
 This project was developed by Russel De Leon and Vayun Gupta as a self-selected final project of ECE 385: Digital Systems Laboratory at the University of Illinois Urbana-Champaign.
