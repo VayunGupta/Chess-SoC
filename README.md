@@ -78,7 +78,7 @@ A more detailed explanation of the design, implementation, testing, and results 
 
 Special thanks to Rishi Thakkar for creating tools that helped support a palette-based approach to sprite generation.
 
-[Related Repository](https://github.com/ministrike3/ECE-385-Final-Project)
+[Related Repository](https://github.com/Atrifex/ECE385-HelperTools#org8f46168)
 
 ## Project Context
 
