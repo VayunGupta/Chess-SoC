@@ -1,0 +1,6 @@
+02:16:48 **** Incremental Build of configuration Debug for project chess_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+02:16:48 Build Finished (took 171ms)
+

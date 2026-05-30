@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="Pawn_rom_synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1745901317">
+  <File Type="PA-TCL" Name="Pawn_rom.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Pawn_rom_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Pawn_rom_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Pawn_rom.vds"/>
+  <File Type="RDS-UTIL" Name="Pawn_rom_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Pawn_rom_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Pawn_rom.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Pawn_rom_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Pawn_rom_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Pawn_rom">
+    <File Path="$PPRDIR/../../../../../../Users/versa/ECE385/ip_repo/hdmi_text_controller_1_0/src/Pawn_rom/Pawn_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="Pawn_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Pawn_rom">
+    <File Path="$PPRDIR/../../../../../../Users/versa/ECE385/ip_repo/hdmi_text_controller_1_0/src/Pawn_rom/Pawn_rom.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="Pawn_rom"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

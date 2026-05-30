@@ -1,0 +1,1006 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr 30 02:18:24 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 61) to (Rev. 62)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr 30 01:15:54 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 60) to (Rev. 61)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 29 20:04:01 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 59) to (Rev. 60)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 29 18:55:37 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 58) to (Rev. 59)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 29 04:42:48 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 57) to (Rev. 58)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 29 04:32:31 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0 (Rev. 57)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 29 03:05:41 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 56) to (Rev. 57)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 29 02:03:58 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 55) to (Rev. 56)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mb_usb_hdmi_text_controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'chesscodes'
+
+-Upgrade has added port 'chesscode0'
+
+-Upgrade has added port 'chesscode1'
+
+-Upgrade has added port 'chesscode2'
+
+-Upgrade has added port 'chesscode3'
+
+-Upgrade has added port 'chesscode4'
+
+-Upgrade has added port 'chesscode5'
+
+-Upgrade has added port 'chesscode6'
+
+-Upgrade has added port 'chesscode7'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 29 02:03:39 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0 (Rev. 55)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 29 01:56:30 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 54) to (Rev. 55)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mb_usb_hdmi_text_controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'chesscodes'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 29 01:52:34 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0 (Rev. 54)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 29 00:48:35 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 53) to (Rev. 54)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 29 00:44:59 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0 (Rev. 53)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr 24 03:48:43 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 52) to (Rev. 53)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr 24 03:23:46 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 50) to (Rev. 52)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mb_usb_hdmi_text_controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'keycode1'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr 24 01:21:05 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 49) to (Rev. 50)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr 24 01:02:30 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 47) to (Rev. 49)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr 24 00:32:29 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 45) to (Rev. 47)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr 23 21:12:37 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 40) to (Rev. 45)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr 23 21:01:18 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 37) to (Rev. 40)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 22 23:17:59 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 36) to (Rev. 37)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mb_usb_hdmi_text_controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'keycodes'
+
+-Upgrade has added port 'keycode0'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Tue Apr 22 23:07:23 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 35) to (Rev. 36)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mb_usb_hdmi_text_controller_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'keycodes'
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 04:11:50 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 33) to (Rev. 35)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 03:37:46 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 32) to (Rev. 33)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 03:23:18 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 27) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 03:10:03 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 02:39:02 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 25) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 02:22:07 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 24) to (Rev. 25)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 02:08:54 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 22) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 01:48:59 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 20) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 01:34:45 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 01:14:37 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 17) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 00:35:02 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 15) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Apr 11 00:17:25 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr 10 23:43:34 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr 10 23:25:22 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:2.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr 10 20:49:24 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 from xilinx.com:user:hdmi_text_controller:1.0 (Rev. 10) to xilinx.com:user:hdmi_text_controller:2.0 (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr  3 01:21:58 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:1.0) from (Rev. 8) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Thu Apr  3 01:13:12 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:1.0) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Apr  2 21:34:44 2025
+| Host         : Vayun running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s50csga324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mb_usb_hdmi_text_controller_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of mb_usb_hdmi_text_controller_0_0 (xilinx.com:user:hdmi_text_controller:1.0) from (Rev. 2) to (Rev. 6)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mb_usb_hdmi_text_controller_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'axi_araddr' width 16 differs from original width 4
+
+-Upgraded port 'axi_awaddr' width 16 differs from original width 4
+
+
+3. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'C_AXI_ADDR_WIDTH' from '16' to '4' has been ignored for IP 'mb_usb_hdmi_text_controller_0_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:user:hdmi_text_controller:1.0 -user_name mb_usb_hdmi_text_controller_0_0
+set_property -dict "\
+  CONFIG.AXI.ADDR_WIDTH {4} \
+  CONFIG.AXI.ARUSER_WIDTH {0} \
+  CONFIG.AXI.AWUSER_WIDTH {0} \
+  CONFIG.AXI.BUSER_WIDTH {0} \
+  CONFIG.AXI.CLK_DOMAIN {} \
+  CONFIG.AXI.DATA_WIDTH {32} \
+  CONFIG.AXI.FREQ_HZ {100000000} \
+  CONFIG.AXI.HAS_BRESP {1} \
+  CONFIG.AXI.HAS_BURST {0} \
+  CONFIG.AXI.HAS_CACHE {0} \
+  CONFIG.AXI.HAS_LOCK {0} \
+  CONFIG.AXI.HAS_PROT {1} \
+  CONFIG.AXI.HAS_QOS {0} \
+  CONFIG.AXI.HAS_REGION {0} \
+  CONFIG.AXI.HAS_RRESP {1} \
+  CONFIG.AXI.HAS_WSTRB {1} \
+  CONFIG.AXI.ID_WIDTH {0} \
+  CONFIG.AXI.INSERT_VIP {0} \
+  CONFIG.AXI.MAX_BURST_LENGTH {1} \
+  CONFIG.AXI.NUM_READ_OUTSTANDING {1} \
+  CONFIG.AXI.NUM_READ_THREADS {1} \
+  CONFIG.AXI.NUM_WRITE_OUTSTANDING {1} \
+  CONFIG.AXI.NUM_WRITE_THREADS {1} \
+  CONFIG.AXI.PHASE {0.0} \
+  CONFIG.AXI.PROTOCOL {AXI4LITE} \
+  CONFIG.AXI.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.AXI.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.AXI.RUSER_WIDTH {0} \
+  CONFIG.AXI.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.AXI.WIZ_DATA_WIDTH {32} \
+  CONFIG.AXI.WIZ_NUM_REG {4} \
+  CONFIG.AXI.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.AXI.WUSER_WIDTH {0} \
+  CONFIG.AXI_CLK.ASSOCIATED_BUSIF {AXI} \
+  CONFIG.AXI_CLK.ASSOCIATED_PORT {} \
+  CONFIG.AXI_CLK.ASSOCIATED_RESET {axi_aresetn} \
+  CONFIG.AXI_CLK.CLK_DOMAIN {} \
+  CONFIG.AXI_CLK.FREQ_HZ {100000000} \
+  CONFIG.AXI_CLK.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.AXI_CLK.INSERT_VIP {0} \
+  CONFIG.AXI_CLK.PHASE {0.0} \
+  CONFIG.AXI_RST.INSERT_VIP {0} \
+  CONFIG.AXI_RST.POLARITY {ACTIVE_LOW} \
+  CONFIG.C_AXI_ADDR_WIDTH {4} \
+  CONFIG.C_AXI_BASEADDR {0xFFFFFFFF} \
+  CONFIG.C_AXI_DATA_WIDTH {32} \
+  CONFIG.C_AXI_HIGHADDR {0x00000000} \
+  CONFIG.Component_Name {mb_usb_hdmi_text_controller_0_0} \
+  CONFIG.HDMI.NUM_READ_OUTSTANDING {} \
+  CONFIG.HDMI.NUM_WRITE_OUTSTANDING {} \
+  CONFIG.hdmi_clk_n.ASSOCIATED_BUSIF {} \
+  CONFIG.hdmi_clk_n.ASSOCIATED_PORT {} \
+  CONFIG.hdmi_clk_n.ASSOCIATED_RESET {} \
+  CONFIG.hdmi_clk_n.CLK_DOMAIN {} \
+  CONFIG.hdmi_clk_n.FREQ_HZ {100000000} \
+  CONFIG.hdmi_clk_n.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.hdmi_clk_n.INSERT_VIP {0} \
+  CONFIG.hdmi_clk_n.PHASE {0.0} \
+  CONFIG.hdmi_clk_p.ASSOCIATED_BUSIF {} \
+  CONFIG.hdmi_clk_p.ASSOCIATED_PORT {} \
+  CONFIG.hdmi_clk_p.ASSOCIATED_RESET {} \
+  CONFIG.hdmi_clk_p.CLK_DOMAIN {} \
+  CONFIG.hdmi_clk_p.FREQ_HZ {100000000} \
+  CONFIG.hdmi_clk_p.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.hdmi_clk_p.INSERT_VIP {0} \
+  CONFIG.hdmi_clk_p.PHASE {0.0} " [get_ips mb_usb_hdmi_text_controller_0_0]
+
+

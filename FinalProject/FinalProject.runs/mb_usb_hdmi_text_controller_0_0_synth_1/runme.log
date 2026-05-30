@@ -1,0 +1,1153 @@
+
+*** Running vivado
+    with args -log mb_usb_hdmi_text_controller_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_usb_hdmi_text_controller_0_0.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source mb_usb_hdmi_text_controller_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 371.629 ; gain = 66.707
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/versa/ECE385/ip_repo/hdmi_text_controller_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/versa/Downloads/RD_hdmi_ip2020'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mb_usb_hdmi_text_controller_0_0
+Command: synth_design -top mb_usb_hdmi_text_controller_0_0 -part xc7s50csga324-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s50'
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 48832
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN0' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:145]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN1' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:146]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN2' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:147]
+WARNING: [Synth 8-11065] parameter 'CTRLTOKEN3' becomes localparam in 'encode' with formal parameter declaration list [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:148]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1188.602 ; gain = 406.324
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:76]
+	Parameter C_FAMILY bound to: spartan7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 8 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: blk_mem_gen_0.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 1 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 4 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 32 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 32 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 1200 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 1200 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 1 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 4 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 32 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 32 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 1200 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 1200 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 11 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 2 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     10.7492 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_5' declared at 'c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_5' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:249]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_gen_0' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/synth/blk_mem_gen_0.vhd:76]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_text_controller_v1_0_AXI' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/hdmi_text_controller_v1_0_AXI.sv:28]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.v:69]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0_clk_wiz' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_clk_wiz.v:69]
+INFO: [Synth 8-6157] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:79852]
+INFO: [Synth 8-6155] done synthesizing module 'MMCME2_ADV' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:79852]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:1082]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0_clk_wiz' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_clk_wiz.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.v:69]
+INFO: [Synth 8-6157] synthesizing module 'vga_controller' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/VGA_controller.sv:26]
+INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/VGA_controller.sv:26]
+WARNING: [Synth 8-7071] port 'sync' of module 'vga_controller' is unconnected for instance 'vga' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/hdmi_text_controller_v1_0.sv:136]
+WARNING: [Synth 8-7023] instance 'vga' of module 'vga_controller' has 8 connections declared, but only 7 given [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/hdmi_text_controller_v1_0.sv:136]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_0' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/synth/hdmi_tx_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'hdmi_tx_v1_0' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/hdmi_tx_v1_0.v:70]
+INFO: [Synth 8-6157] synthesizing module 'srldelay' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/srldelay.v:70]
+INFO: [Synth 8-6157] synthesizing module 'SRL16E' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131644]
+INFO: [Synth 8-6155] done synthesizing module 'SRL16E' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:131644]
+INFO: [Synth 8-6155] done synthesizing module 'srldelay' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/srldelay.v:70]
+INFO: [Synth 8-6157] synthesizing module 'encode' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'encode__parameterized0' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized0' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'encode__parameterized1' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6155] done synthesizing module 'encode__parameterized1' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/encode.v:79]
+INFO: [Synth 8-6157] synthesizing module 'serdes_10_to_1' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/serdes_10_to_1.v:43]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
+INFO: [Synth 8-6157] synthesizing module 'OSERDESE2__parameterized0' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
+INFO: [Synth 8-6155] done synthesizing module 'OSERDESE2__parameterized0' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:94875]
+INFO: [Synth 8-6155] done synthesizing module 'serdes_10_to_1' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/serdes_10_to_1.v:43]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:90676]
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (0#1) [C:/Xilinx/Vivado/2022.2/scripts/rt/data/unisim_comp.v:90676]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_v1_0' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/hdmi_tx_v1_0.v:70]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_tx_0' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/synth/hdmi_tx_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'mouse' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/mouse.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'mouse' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/mouse.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'chessBoard_example' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/chessBoard_example.sv:1]
+INFO: [Synth 8-638] synthesizing module 'chessBoard_rom' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/chessBoard_rom_1/synth/chessBoard_rom.vhd:67]
+	Parameter C_FAMILY bound to: spartan7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: chessBoard_rom.mif - type: string 
+	Parameter C_INIT_FILE bound to: chessBoard_rom.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 230400 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 230400 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 18 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 1 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 230400 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 230400 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 18 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 7 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     2.154552 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_5' declared at 'c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_5' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/chessBoard_rom_1/synth/chessBoard_rom.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'chessBoard_rom' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/chessBoard_rom_1/synth/chessBoard_rom.vhd:67]
+INFO: [Synth 8-6157] synthesizing module 'chessBoard_palette' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/chessBoard_palette.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'chessBoard_palette' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/chessBoard_palette.sv:1]
+INFO: [Synth 8-638] synthesizing module 'Bishop_rom' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Bishop_rom/synth/Bishop_rom.vhd:67]
+	Parameter C_FAMILY bound to: spartan7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Bishop_rom.mif - type: string 
+	Parameter C_INIT_FILE bound to: Bishop_rom.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.1416 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_5' declared at 'c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_5' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Bishop_rom/synth/Bishop_rom.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Bishop_rom' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Bishop_rom/synth/Bishop_rom.vhd:67]
+INFO: [Synth 8-6157] synthesizing module 'Bishop_palette' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/Bishop_palette.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'Bishop_palette' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/Bishop_palette.sv:1]
+INFO: [Synth 8-638] synthesizing module 'King_rom' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/King_rom/synth/King_rom.vhd:67]
+	Parameter C_FAMILY bound to: spartan7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: King_rom.mif - type: string 
+	Parameter C_INIT_FILE bound to: King_rom.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.1416 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_5' declared at 'c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_5' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/King_rom/synth/King_rom.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'King_rom' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/King_rom/synth/King_rom.vhd:67]
+INFO: [Synth 8-6157] synthesizing module 'King_palette' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/King_palette.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'King_palette' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/King_palette.sv:1]
+INFO: [Synth 8-638] synthesizing module 'Knight_rom' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Knight_rom/synth/Knight_rom.vhd:67]
+	Parameter C_FAMILY bound to: spartan7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Knight_rom.mif - type: string 
+	Parameter C_INIT_FILE bound to: Knight_rom.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.1416 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_5' declared at 'c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_5' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Knight_rom/synth/Knight_rom.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Knight_rom' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Knight_rom/synth/Knight_rom.vhd:67]
+INFO: [Synth 8-6157] synthesizing module 'Knight_palette' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/Knight_palette.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'Knight_palette' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/Knight_palette.sv:1]
+INFO: [Synth 8-638] synthesizing module 'Pawn_rom' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Pawn_rom/synth/Pawn_rom.vhd:67]
+	Parameter C_FAMILY bound to: spartan7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Pawn_rom.mif - type: string 
+	Parameter C_INIT_FILE bound to: Pawn_rom.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.1416 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_5' declared at 'c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_5' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Pawn_rom/synth/Pawn_rom.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Pawn_rom' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Pawn_rom/synth/Pawn_rom.vhd:67]
+INFO: [Synth 8-6157] synthesizing module 'Pawn_palette' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/Pawn_palette.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'Pawn_palette' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/Pawn_palette.sv:1]
+INFO: [Synth 8-638] synthesizing module 'Queen_rom' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Queen_rom/synth/Queen_rom.vhd:67]
+	Parameter C_FAMILY bound to: spartan7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Queen_rom.mif - type: string 
+	Parameter C_INIT_FILE bound to: Queen_rom.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.1416 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_5' declared at 'c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_5' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Queen_rom/synth/Queen_rom.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Queen_rom' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Queen_rom/synth/Queen_rom.vhd:67]
+INFO: [Synth 8-6157] synthesizing module 'Queen_palette' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/Queen_palette.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'Queen_palette' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/Queen_palette.sv:1]
+INFO: [Synth 8-638] synthesizing module 'Rook_rom' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Rook_rom/synth/Rook_rom.vhd:67]
+	Parameter C_FAMILY bound to: spartan7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: spartan7 - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 3 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 1 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: Rook_rom.mif - type: string 
+	Parameter C_INIT_FILE bound to: Rook_rom.mem - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 3600 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 3 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 3600 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 1 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 0 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 1 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     1.1416 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_5' declared at 'c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/blk_mem_gen_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_5' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Rook_rom/synth/Rook_rom.vhd:230]
+INFO: [Synth 8-256] done synthesizing module 'Rook_rom' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/Rook_rom/synth/Rook_rom.vhd:67]
+INFO: [Synth 8-6157] synthesizing module 'Rook_palette' [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/Rook_palette.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'Rook_palette' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/Rook_palette.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'chessBoard_example' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/chessBoard_example.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'hdmi_text_controller_v1_0' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ipshared/a935/src/hdmi_text_controller_v1_0.sv:10]
+INFO: [Synth 8-6155] done synthesizing module 'mb_usb_hdmi_text_controller_0_0' (0#1) [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/synth/mb_usb_hdmi_text_controller_0_0.sv:53]
+WARNING: [Synth 8-6014] Unused sequential element hdmi_ctl1_reg was removed.  [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/hdmi_tx_0/hdl/hdmi_tx_v1_0.v:148]
+WARNING: [Synth 8-7129] Port CLKB in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[2] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[1] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB_I[0] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR_I in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR_I in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[11] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[10] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[9] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[8] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[7] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[6] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[5] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[4] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[3] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[2] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[1] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RDADDRECC_I[0] in module blk_mem_output_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB[3] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB[2] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB[1] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DOUTB[0] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SBITERR in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DBITERR in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRA in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLKB in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSRB in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENB in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEB in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEB[0] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[11] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[10] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[9] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[8] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[7] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[6] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[5] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[4] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[3] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[2] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[1] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[0] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[3] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[2] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[1] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[0] in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SLEEP in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ECCPIPECE in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ram_rstram_b in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ram_rstreg_b in module blk_mem_gen_prim_wrapper_init__parameterized9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RSTA[0] in module blk_mem_gen_generic_cstr__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEB[0] in module blk_mem_gen_generic_cstr__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_gen_generic_cstr__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_gen_generic_cstr__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RSTA in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENA in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEA in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEA[0] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINA[2] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINA[1] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINA[0] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLKB in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RSTB in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ENB in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEB in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port WEB[0] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[11] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[10] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[9] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[8] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[7] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[6] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[5] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[4] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[3] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[2] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[1] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ADDRB[0] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[2] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[1] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DINB[0] in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module blk_mem_input_block__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWREADY in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WREADY in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_BID[3] in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_BID[2] in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_BID[1] in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_BID[0] in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_BRESP[1] in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_BRESP[0] in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_BVALID in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARREADY in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_RID[3] in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_RID[2] in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_RID[1] in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_RID[0] in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_RDATA[2] in module blk_mem_gen_v8_4_5_synth__parameterized6 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:01 ; elapsed = 00:01:08 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:01 ; elapsed = 00:01:09 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:01 ; elapsed = 00:01:09 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 2207.402 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc] for cell 'inst/clk_wiz/inst'
+Finished Parsing XDC File [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc] for cell 'inst/clk_wiz/inst'
+Parsing XDC File [C:/Users/versa/ECE385/FinalProject/FinalProject.runs/mb_usb_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/versa/ECE385/FinalProject/FinalProject.runs/mb_usb_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/versa/ECE385/FinalProject/FinalProject.runs/mb_usb_hdmi_text_controller_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mb_usb_hdmi_text_controller_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mb_usb_hdmi_text_controller_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_late.xdc] for cell 'inst/clk_wiz/inst'
+Finished Parsing XDC File [c:/Users/versa/ECE385/FinalProject/lab7_1_new.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_late.xdc] for cell 'inst/clk_wiz/inst'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2207.402 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.122 . Memory (MB): peak = 2207.402 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:10 ; elapsed = 00:01:17 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s50csga324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:10 ; elapsed = 00:01:17 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst/clk_wiz/inst. (constraint file  C:/Users/versa/ECE385/FinalProject/FinalProject.runs/mb_usb_hdmi_text_controller_0_0_synth_1/dont_touch.xdc, line 52).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/hdmi_text_controller_v1_0_AXI_inst/bram0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/clk_wiz. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/vga_to_hdmi. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/chessboard_example/chessBoard_rom. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/chessboard_example/Rook_rom. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/chessboard_example/Queen_rom. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/chessboard_example/Pawn_rom. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/chessboard_example/Knight_rom. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/chessboard_example/King_rom. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/chessboard_example/Bishop_rom. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:10 ; elapsed = 00:01:18 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:10 ; elapsed = 00:01:19 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   32 Bit       Adders := 2     
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 2     
+	   2 Input   10 Bit       Adders := 3     
+	   5 Input    5 Bit       Adders := 6     
+	   4 Input    5 Bit       Adders := 3     
+	   8 Input    4 Bit       Adders := 6     
+	   2 Input    4 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 42    
++---Registers : 
+	               32 Bit    Registers := 1     
+	               18 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 5     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 22    
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 41    
++---Multipliers : 
+	              32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 9     
+	   2 Input   18 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 1     
+	   8 Input   12 Bit        Muxes := 6     
+	   2 Input   11 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 10    
+	  22 Input   10 Bit        Muxes := 1     
+	   4 Input   10 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 43    
+	   2 Input    5 Bit        Muxes := 12    
+	   2 Input    4 Bit        Muxes := 23    
+	   2 Input    1 Bit        Muxes := 61    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 120 (col length:60)
+BRAMs: 150 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP red1, operation Mode is: A*B.
+DSP Report: operator red1 is absorbed into DSP red1.
+DSP Report: Generating DSP red2, operation Mode is: A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP red2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: operator red2 is absorbed into DSP red2.
+DSP Report: Generating DSP rom_address0, operation Mode is: C+A*(B:0x1e0).
+DSP Report: operator rom_address0 is absorbed into DSP rom_address0.
+DSP Report: operator rom_address1 is absorbed into DSP rom_address0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:19 ; elapsed = 00:01:28 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name        | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|chessBoard_example | A*B            | 11     | 11     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | A*B            | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | (PCIN>>17)+A*B | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | C+A*(B:0x1e0)  | 10     | 9      | 10     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++-------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:25 ; elapsed = 00:01:34 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:34 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:26 ; elapsed = 00:01:34 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:29 ; elapsed = 00:01:37 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:29 ; elapsed = 00:01:37 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:29 ; elapsed = 00:01:37 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:29 ; elapsed = 00:01:37 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:29 ; elapsed = 00:01:37 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:29 ; elapsed = 00:01:37 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name             | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|hdmi_tx_0   | inst/encg/c0_reg_reg | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+----------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name        | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|chessBoard_example | A*B          | 4      | 4      | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | PCIN>>17+A*B | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | A*B          | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | PCIN>>17+A*B | 17     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|chessBoard_example | C+A*B        | 10     | 9      | 10     | -      | 18     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++-------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     3|
+|2     |CARRY4     |    62|
+|3     |DSP48E1    |     8|
+|5     |LUT1       |     7|
+|6     |LUT2       |   176|
+|7     |LUT3       |   119|
+|8     |LUT4       |    82|
+|9     |LUT5       |   240|
+|10    |LUT6       |   376|
+|11    |MMCME2_ADV |     1|
+|12    |MUXF7      |    38|
+|13    |MUXF8      |     9|
+|14    |OSERDESE2  |     8|
+|16    |RAMB18E1   |     7|
+|23    |RAMB36E1   |     9|
+|31    |SRL16E     |    39|
+|32    |FDCE       |    82|
+|33    |FDPE       |     6|
+|34    |FDRE       |   448|
+|35    |FDSE       |     1|
+|36    |OBUFDS     |     4|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:29 ; elapsed = 00:01:37 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1202 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:01:33 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+Synthesis Optimization Complete : Time (s): cpu = 00:01:29 ; elapsed = 00:01:38 . Memory (MB): peak = 2207.402 ; gain = 1425.125
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 2207.402 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 138 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 28 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2207.402 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: a51c67de
+INFO: [Common 17-83] Releasing license: Synthesis
+107 Infos, 208 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:34 ; elapsed = 00:01:56 . Memory (MB): peak = 2207.402 ; gain = 1800.957
+INFO: [Common 17-1381] The checkpoint 'C:/Users/versa/ECE385/FinalProject/FinalProject.runs/mb_usb_hdmi_text_controller_0_0_synth_1/mb_usb_hdmi_text_controller_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mb_usb_hdmi_text_controller_0_0, cache-ID = 5cbd01bfbaf59344
+INFO: [Coretcl 2-1174] Renamed 84 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/versa/ECE385/FinalProject/FinalProject.runs/mb_usb_hdmi_text_controller_0_0_synth_1/mb_usb_hdmi_text_controller_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mb_usb_hdmi_text_controller_0_0_utilization_synth.rpt -pb mb_usb_hdmi_text_controller_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 30 02:36:41 2025...

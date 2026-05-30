@@ -1,0 +1,2 @@
+Bishop_rom.v,verilog,xil_defaultlib,../../../../../../../ip_repo/hdmi_text_controller_1_0/src/Bishop_rom/sim/Bishop_rom.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

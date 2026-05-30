@@ -1,0 +1,247 @@
+//Provided HDMI_Text_controller_v1_0 for HDMI AXI4 IP 
+//Fall 2024 Distribution
+
+//Modified 3/10/24 by Zuofu
+//Updated 11/18/24 by Zuofu
+
+
+`timescale 1 ns / 1 ps
+
+module hdmi_text_controller_v1_0 #
+(
+    // Parameters of Axi Slave Bus Interface S00_AXI
+    // Modify parameters as necessary for access of full VRAM range
+
+    parameter integer C_AXI_DATA_WIDTH	= 32,
+    parameter integer C_AXI_ADDR_WIDTH	= 16
+)
+(
+    // Users to add ports here
+    input logic [31:0] keycode0,
+    input logic [31:0] chesscode0,
+    input logic [31:0] chesscode1,
+    input logic [31:0] chesscode2,
+    input logic [31:0] chesscode3,
+    input logic [31:0] chesscode4,
+    input logic [31:0] chesscode5,
+    input logic [31:0] chesscode6,
+    input logic [31:0] chesscode7,
+    output logic [31:0] keycode1,
+
+    output logic hdmi_clk_n,
+    output logic hdmi_clk_p,
+    output logic [2:0] hdmi_tx_n,
+    output logic [2:0] hdmi_tx_p,
+
+    // User ports ends
+    // Do not modify the ports beyond this line
+
+
+    // Ports of Axi Slave Bus Interface AXI
+    input logic  axi_aclk,
+    input logic  axi_aresetn,
+    input logic [C_AXI_ADDR_WIDTH-1 : 0] axi_awaddr,
+    input logic [2 : 0] axi_awprot,
+    input logic  axi_awvalid,
+    output logic  axi_awready,
+    input logic [C_AXI_DATA_WIDTH-1 : 0] axi_wdata,
+    input logic [(C_AXI_DATA_WIDTH/8)-1 : 0] axi_wstrb,
+    input logic  axi_wvalid,
+    output logic  axi_wready,
+    output logic [1 : 0] axi_bresp,
+    output logic  axi_bvalid,
+    input logic  axi_bready,
+    input logic [C_AXI_ADDR_WIDTH-1 : 0] axi_araddr,
+    input logic [2 : 0] axi_arprot,
+    input logic  axi_arvalid,
+    output logic  axi_arready,
+    output logic [C_AXI_DATA_WIDTH-1 : 0] axi_rdata,
+    output logic [1 : 0] axi_rresp,
+    output logic  axi_rvalid,
+    input logic  axi_rready
+);
+
+//additional logic variables as necessary to support VGA, and HDMI modules.
+    logic clk_25MHz, clk_125MHz;
+    logic locked;
+    logic [9:0] drawX, drawY, ballxsig, ballysig, ballsizesig;
+
+    logic hsync, vsync, vde;
+    logic [3:0] red, green, blue;
+    logic reset_ah;
+    
+    logic [31:0] word_addr;
+    logic [10:0] addr;
+    logic [10:0] vram_index;
+    logic [7:0] data;
+    logic [31:0] palette[8];
+    logic [255:0] chesscodes;
+    assign chesscodes = {chesscode7, chesscode6, chesscode5, chesscode4, chesscode3, chesscode2, chesscode1, chesscode0};
+
+    // For Piece Logic
+    logic pawn_on, bishop_on, rook_on, queen_on, king_on, knight_on, piece_on;
+    logic [3:0] piece_red, piece_green, piece_blue;
+
+assign reset_ah = ~axi_aresetn;
+
+// Instantiation of Axi Bus Interface AXI
+hdmi_text_controller_v1_0_AXI # ( 
+    .C_S_AXI_DATA_WIDTH(C_AXI_DATA_WIDTH),
+    .C_S_AXI_ADDR_WIDTH(C_AXI_ADDR_WIDTH)
+) hdmi_text_controller_v1_0_AXI_inst (
+    .S_AXI_ACLK(axi_aclk),
+    .S_AXI_ARESETN(axi_aresetn),
+    .S_AXI_AWADDR(axi_awaddr),
+    .S_AXI_AWPROT(axi_awprot),
+    .S_AXI_AWVALID(axi_awvalid),
+    .S_AXI_AWREADY(axi_awready),
+    .S_AXI_WDATA(axi_wdata),
+    .S_AXI_WSTRB(axi_wstrb),
+    .S_AXI_WVALID(axi_wvalid),
+    .S_AXI_WREADY(axi_wready),
+    .S_AXI_BRESP(axi_bresp),
+    .S_AXI_BVALID(axi_bvalid),
+    .S_AXI_BREADY(axi_bready),
+    .S_AXI_ARADDR(axi_araddr),
+    .S_AXI_ARPROT(axi_arprot),
+    .S_AXI_ARVALID(axi_arvalid),
+    .S_AXI_ARREADY(axi_arready),
+    .S_AXI_RDATA(axi_rdata),
+    .S_AXI_RRESP(axi_rresp),
+    .S_AXI_RVALID(axi_rvalid),
+    .S_AXI_RREADY(axi_rready),
+    
+    .DrawX(drawX),
+    .DrawY(drawY),
+    //.vram_index(vram_index),
+    .word_addr(word_addr),
+    .palette(palette)
+);
+
+
+//Instiante clocking wizard, VGA sync generator modules, and VGA-HDMI IP here. For a hint, refer to the provided
+//top-level from the previous lab. You should get the IP to generate a valid HDMI signal (e.g. blue screen or gradient)
+//prior to working on the text drawing.
+    
+    //clock wizard configured with a 1x and 5x clock for HDMI
+    clk_wiz_0 clk_wiz (
+        .clk_out1   (clk_25MHz),
+        .clk_out2   (clk_125MHz),
+        .reset      (reset_ah), 
+        .locked     (locked),
+        .clk_in1    (axi_aclk)
+    );
+
+    //VGA Sync signal generator
+    vga_controller vga (
+        .pixel_clk(clk_25MHz),
+        .reset(reset_ah),  
+        .hs(hsync),
+        .vs(vsync),
+        .active_nblank(vde),
+        .drawX(drawX),
+        .drawY(drawY)
+    );
+
+    //Real Digital VGA to HDMI converter
+    hdmi_tx_0 vga_to_hdmi (
+        //Clocking and Reset
+        .pix_clk(clk_25MHz),
+        .pix_clkx5(clk_125MHz),
+        .pix_clk_locked(locked),
+        //Reset is active LOW
+        .rst(reset_ah),
+        //Color and Sync Signals
+        .red(red),
+        .green(green),
+        .blue(blue),
+        .hsync(hsync),
+        .vsync(vsync),
+        .vde(vde),
+        
+        //aux Data (unused)
+        .aux0_din(4'b0),
+        .aux1_din(4'b0),
+        .aux2_din(4'b0),
+        .ade(1'b0),
+        
+        //Differential outputs
+        .TMDS_CLK_P(hdmi_clk_p),          
+        .TMDS_CLK_N(hdmi_clk_n),          
+        .TMDS_DATA_P(hdmi_tx_p),         
+        .TMDS_DATA_N(hdmi_tx_n)          
+    );
+    
+    //Mouse Module
+     mouse mouse_instance(
+        .Reset(reset_ah),
+        .frame_clk(vsync),                    //Figure out what this should be so that the ball will move
+        .keycode(keycode0[31:0]),             //Notice: only one keycode connected to ball by default // changed from 7:0
+        .BallX(ballxsig),
+        .BallY(ballysig),
+        .BallS(ballsizesig)
+    );
+
+//    //Color Mapper Module   
+//    color_mapper color_instance(
+//        .BallX(ballxsig),
+//        .BallY(ballysig),
+//        .DrawX(drawX),
+//        .DrawY(drawY),
+//        .Ball_size(ballsizesig),
+//        .data(data),
+//        .word_addr(word_addr),
+//        .palette(palette),
+//        //.vram_index(vram_index),
+//        .Red(red),
+//        .Green(green),
+//        .Blue(blue),
+//        .addr_combined(addr)
+//    );
+    
+    // Chessboard render & mouse
+    chessBoard_example chessboard_example (
+        .vga_clk(clk_25MHz),
+        .DrawX(drawX), 
+        .DrawY(drawY),
+        .blank(vde),
+        .red(red), 
+        .green(green), 
+        .blue(blue),
+        .BallX(ballxsig),
+        .BallY(ballysig),
+        .Ball_size(ballsizesig),
+        .button(keycode0[31:24]),
+        .chesscodes(chesscodes)
+//        .piece_on(piece_on),
+//        .piece_red(piece_red),
+//        .piece_green(piece_green),
+//        .piece_blue(piece_blue)
+    );
+
+//    // Pieces logic
+//    pieces pieces (
+//        .pawn_on(pawn_on),
+//        .knight_on(knight_on),
+//        .bishop_on(bishop_on),
+//        .rook_on(rook_on),
+//        .queen_on(queen_on),
+//        .king_on(king_on),
+//        .piece_on(piece_on),
+//        .piece_red(piece_red),
+//        .piece_green(piece_green),
+//        .piece_blue(piece_blue)
+//    );
+
+//    //Font Rom Module
+//    font_rom font_rom (
+//        .addr(addr),
+//        .data(data)
+//    );
+
+assign keycode1[19:10] = ballysig;
+assign keycode1[9:0]   = ballxsig;
+
+// User logic ends
+
+endmodule
