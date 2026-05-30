@@ -2,7 +2,7 @@
 
 ## Overview
 
-FPGA Chess Interface is a hardware-accelerated chess project built on a custom System-on-Chip (SoC) platform. The project supports mouse-based interaction and displays the chessboard through HDMI. It was developed using Xilinx Vivado and Vitis and targets the Xilinx Spartan-7 XC7S50CSGA324-1 FPGA on the RealDigital Urbana Board.
+This project implements a hardware-accelerated chess interface on a custom System-on-Chip (SoC) platform. It utilizes mouse input for interaction and renders the chessboard display through HDMI. The design is built and deployed using Xilinx Vitis and is compatible with the Xilinx Spartan-7 xc7s50csga324-1 FPGA (found on the RealDigital Urbana Board).
 
 ## Features
 
@@ -20,7 +20,7 @@ Before running the project, make sure you have:
 
 - Xilinx Vivado and Vitis installed
 - A RealDigital Urbana Board or compatible Spartan-7 FPGA board
-- A connected mouse
+- A connected USB mouse
 - An HDMI display
 - A MicroUSB cable connected to the FPGA board
 
@@ -36,5 +36,5 @@ Before running the project, make sure you have:
 
 ## Notes
 
-- Connect the mouse before starting the application.
+- Ensure the mouse is connected before starting the application.
 - The project currently supports basic cursor interaction and board navigation.
